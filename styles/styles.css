@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #242038;
+}
+
+header {
+  background-color: #9067C6;
+  margin: 0;
+  padding: .5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h1, h2 {
+  color: #F7ECE1;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.474);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookform {
+  background-color: #9067C6;
+  width: 250px;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.toggle_button {
+  position: relative;
+  top: -150px;
+  left: 280px;
+}
+
+section {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.article {
+  background-color: #8D86C9;
+  color: white;
+  border-radius: .5rem;
+  padding: 1rem;
+  width: 200px;
+}
